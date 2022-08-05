@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="tickedHomeCheckBoxNote" verbose="1">
+    <test name="AvailableTickingCheckBoxHomeFolderInCheckBoxItemInElementsCardTest">
+        <classes>
+            <class name="tests.AvailableTickingCheckBoxHomeFolderInCheckBoxItemInElementsCardTest"/>
+        </classes>
+    </test>
+    <test name="InfoNoteOfTheSelectedCheckBoxHomeFolderInCheckBoxItemInElementsCardTest">
+        <classes>
+            <class name="tests.InfoNoteOfTheSelectedCheckBoxHomeFolderInCheckBoxItemInElementsCardTest"/>
+        </classes>
+    </test>
+</suite>

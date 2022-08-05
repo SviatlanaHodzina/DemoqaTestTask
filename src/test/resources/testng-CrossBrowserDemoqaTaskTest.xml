@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CrossBrowserDemoqaTaskTest" thread-count="4" verbose="1">
+    <test name="MsedgeSequentialActionsPerformedBySeleniumOnDemoqaSiteTest">
+        <parameter name="browser" value="msedge"/>
+        <classes>
+            <class name="tests.SequentialActionsPerformedBySeleniumOnDemoqaSiteTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxSequentialActionsPerformedBySeleniumOnDemoqaSiteTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.SequentialActionsPerformedBySeleniumOnDemoqaSiteTest"/>
+        </classes>
+    </test>
+    <test name="ChromeSequentialActionsOnDemoqaSiteTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.SequentialActionsPerformedBySeleniumOnDemoqaSiteTest"/>
+        </classes>
+    </test>
+    <test name="IESequentialActionsOnDemoqaSiteTest">
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name="tests.SequentialActionsPerformedBySeleniumOnDemoqaSiteTest"/>
+        </classes>
+    </test>
+</suite>

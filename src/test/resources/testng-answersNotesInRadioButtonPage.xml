@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="answersNotesInRadioButtonPage" verbose="1">
+    <test name="AnswerYesNoteInRadioButtonPageTest">
+        <classes>
+            <class name="tests.AnswerYesNoteInRadioButtonPageTest"/>
+        </classes>
+    </test>
+    <test name="AnswerImpressiveNoteInRadioButtonPageTest">
+        <classes>
+            <class name="tests.AnswerImpressiveNoteInRadioButtonPageTest"/>
+        </classes>
+    </test>
+</suite>

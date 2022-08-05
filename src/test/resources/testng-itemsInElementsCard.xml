@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="itemsInElementsCard" verbose="1">
+    <test name="CheckBoxItemSelectionTest">
+        <classes>
+            <class name="tests.CheckBoxItemSelectionTest"/>
+        </classes>
+    </test>
+    <test name="RadioButtonItemSelectionTest">
+        <classes>
+            <class name="tests.RadioButtonItemSelectionTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="sequentialActionsBySelenium" verbose="1">
+    <test name="SequentialActionsPerformedBySeleniumOnDemoqaSiteTest">
+        <classes>
+            <class name="tests.SequentialActionsPerformedBySeleniumOnDemoqaSiteTest"/>
+        </classes>
+    </test>
+</suite>

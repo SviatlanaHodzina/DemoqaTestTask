@@ -1,0 +1,7 @@
+.db 
+.log 
+/bin
+build/
+node_modules/
+.idea/
+out/
