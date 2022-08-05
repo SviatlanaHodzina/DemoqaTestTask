@@ -16,4 +16,4 @@ Steps for the node registration in Selenium Grid via cmd:
 
 Run the test
 
-\Selenium_Grid>runTestSuitCrossBrowserDemoqa.bat
+mvn -Dbrowser=msedge -Dbrowser=ie -Dbrowser=firefox -Dbrowser=chrome -Dsurefire.suiteXmlFiles=src\test\resources\testng-CrossBrowserDemoqaTaskTest.xml clean test
