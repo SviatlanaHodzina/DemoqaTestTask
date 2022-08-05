@@ -18,8 +18,8 @@ public class RequiredConditions {
     public void setUp(String browser) throws MalformedURLException {
         driver = WebDriverConnector.getDriver("browser");
     }
-//    @AfterMethod(alwaysRun = true)
-//    public void stopBrowser("browser") {
-//        WebDriverConnector.closeDriver();
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void stopBrowser("browser") {
+        WebDriverConnector.closeDriver();
+    }
 }
